@@ -17,7 +17,7 @@
            sync-j="4" />
 
   <project path="kernel/samsung/initramfs" name="sgt7/p1000-initramfs-cm9" revision="master" />
-  <project path="kernel/samsung/p1" name="sgt7/p1000-kernel-cm9" revision="master" />
+  <project path="kernel/samsung/p1" name="sgt7/p1000-kernel-cm9" revision="android-samsung-2.6.35" />
   <project path="scripts" name="sgt7/scripts" revision="master">
     <copyfile src="scripts/build_kernel.sh" dest="build.sh" />
   </project>
